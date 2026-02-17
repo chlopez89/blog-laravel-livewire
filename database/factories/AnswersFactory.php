@@ -17,7 +17,7 @@ class AnswersFactory extends Factory
     public function definition(): array
     {
         return [
-            //
+            'content' => fake()->paragraph(),
         ];
     }
 }
